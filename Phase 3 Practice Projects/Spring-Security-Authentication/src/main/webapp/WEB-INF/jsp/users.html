@@ -1,0 +1,48 @@
+
+
+<html>
+<head>	
+	
+<style>
+table, th, td {
+  border: 1px solid black;
+  	  margin: auto;
+  
+}
+		.center {
+	  		text-align: center;
+	  	}
+</style>
+</head>
+<body >
+	<div class="d-flex justify-content-center">
+		<div class="w-75 p-3">
+		 <div class="center">
+		
+		<div class="jumbotron">
+			<h2 class="display-4">Users</h2>
+			
+			<table style="float:inherit">
+			   <tr><th>ID</th><th>Name</th><th>Email</th><th>Password</th></tr>
+			   <c:forEach items="${users}" var="user" varStatus="count">
+			    <tr id="${count.index}">
+			    	<td>1</td>
+			        <td>jasu</td>
+			        <td>jasu@gmail.com</td>
+			        <td>jasu123</td>
+			        <c:forEach items="${users}" var="user" varStatus="count">
+			    <tr id="${count.index}">
+			    	<td>2</td>
+			        <td>mars</td>
+			        <td>mars@gmail.com</td>
+			        <td>mars123</td>
+			    </tr>
+			  </c:forEach>
+			</table>
+		</div>
+	  </div>
+	 </div>
+	</div>
+</body>
+</html>
+
