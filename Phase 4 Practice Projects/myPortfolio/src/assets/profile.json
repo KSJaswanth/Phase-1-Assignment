@@ -1,0 +1,28 @@
+{
+    "email": "jaswanth@gmail.com",
+    "location": "Andhra Pradesh, India",
+    "name": "Jaswanth K S",
+    "phone": "",
+    "avatar": "assets/media/images/pic.jpg",
+    "education": [{
+        "title": "Bachelor of Technology (BTech) in Computer Science and Engineering",
+        "meta": "IFET College of Engineering,  July 2016 – Sept 2020"
+    }],
+    "about": "Intersted in space exploration",
+    "socials": [{
+            "name": "jaswanth@gmail.com",
+            "link": "mailto:mushasri@teksystems.com",
+            "icon": "fa fa-envelope"
+        },
+        {
+            "name": "Github",
+            "link": "https://github.com/ksjaswanth",
+            "icon": "fab fa-github"
+        },
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/ksjaswanth/",
+            "icon": "fab fa-linkedin"
+        }
+    ]
+}
